@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mini aplicación con Js</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/js.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/taller4.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="index.html"><img src="img/js.jpg" alt="icono java script"></a>
+            </div>
+
+            <ul>
+                <li>
+                    <a href="taller1.html">taller1</a>
+                </li>
+                <li>
+                    <a href="taller2.html">taller2</a>
+                </li>
+                <li>
+                    <a href="taller3.html">taller3</a>
+                </li>
+                <li>
+                    <a href="taller4.html">Taller4</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form action="">
+            <!--name-->
+            <div>
+                <label for="nombre">nombre</label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+            </div>
+            <!--mail-->
+            <div>
+                <label for="email">email</label>
+                <input type="email" id="email" placeholder="Ingrese su email" required>
+            </div>
+            <!--dir-->
+            <div>
+                <label for="direccion">direccion</label>
+                <input type="text" id="direccion" placeholder="Ingrese su dirección" required>
+            </div>
+            <!--age-->
+            <div>
+                <p>Por favor selecione su edad:</p>
+                <input type="radio" id="age1" value="30" required>
+                <label for="age1">0 - 30</label><br>
+                <input type="radio" id="age2" value="60" required>
+                <label for="age2">31 - 60</label><br>
+                <input type="radio" id="age3" value="100" required>
+                <label for="age3">61 - 100</label><br>
+            </div>
+            <!--occupation-->
+            <div>
+                <label for="ocupacion">ocupacion</label>
+                <input type="text" id="ocupacion" placeholder="Ingrese su ocupacción" required>
+            </div>
+            <!--tel-->
+            <div>
+                <label for="telefono">telefono</label>
+                <input type="tel" id="telefono" min="7" max="10" placeholder="Ingrese su telefono" required>
+            </div>
+            <!--confirmt-->
+            <input type="submit" onclick="return enviarFormulario()" value="Enviar">
+            <input type="reset" value="Restablecer">
+        </form>
+        <div id="error"></div>
+    </section>
+    <footer>
+        <p>Jhon Jairo Murcia Ramirez</p>
+    </footer>
+    <script src="js/taller4.js"></script>
+</body>
+
+</html>

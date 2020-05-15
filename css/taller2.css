@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background: #f9faff; }
+
+header,
+.main,
+aside,
+footer {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  display: block; }
+
+header nav div img {
+  display: block;
+  margin: auto;
+  width: 200px;
+  border-radius: 50%; }
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  background: #c04646;
+  display: flex;
+  justify-content: space-around; }
+  header nav ul li {
+    border: 1px solid black;
+    width: 100%;
+    display: flex; }
+    header nav ul li a {
+      text-decoration: none;
+      font-size: 20px;
+      padding: 15px;
+      color: #fff;
+      display: block;
+      margin: auto; }
+      header nav ul li a a:hover {
+        background: #e0c631; }
+
+section {
+  padding: 10px;
+  text-align: center; }
+
+footer {
+  background: #af2828;
+  color: white;
+  clear: both;
+  padding: 10px 0px;
+  text-align: center; }
+
+/*# sourceMappingURL=taller2.css.map */
